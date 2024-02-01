@@ -12,8 +12,7 @@ Immersive Ambient Sound website that helps users to focus while doing work by li
 
 # Function of the Website
 
-1. **Main Page** : The Main Page serves as the central hub of the website. It includes the Header, Content, and Footer components. Users land on this page, where they can seamlessly navigate through the product catalog presented in the form of cards. Each card represents a product, showcasing key details.
+1. **Auto Space** : The Auto Space function in the website allows AI to decide the perfect combination of ambient music to accompany the users while they are doing their work. It starts by asking a few questions to the users before deciding the music suitable. The users, can pause, stop, control the sound or switch to Manual Space.
 
-2. **Card Detail Page** : The Card Detail Page is an interactive space users land on when they click on a specific product card. This page provides in-depth information about the selected product and offers recommendations for related items.
+2. **Manual Space** : The Manual Space function in the website allows the users to manually control ambient musics that were provided on the website. The users can play multiple combination of musics at one time, pause, stop and control the volume of the musics or switch to Auto Space instead.
 
-3. **Shopping Cart** : The Shopping Cart page is a user-friendly space that consolidates all selected products. Users can easily access this page by clicking on the cart icon, typically located on the top left of the website.
