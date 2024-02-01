@@ -33,11 +33,11 @@ Immersive Ambient Sound website that helps users to focus while doing work by li
 <img src="https://github.com/Amirularif/FocuSpace/assets/57553676/bf170c91-d0a7-44d2-a7f9-ef0443207a37" width="700" height=auto>
 <img src="https://github.com/Amirularif/FocuSpace/assets/57553676/830d2dcb-9d9b-4dd5-90d6-ecd04fdda993" width="700" height=auto>
 
-## Shopping cart Page
-+ **Cart Overview** : *Users get a summarized view of the products they've added to their cart, including images, names, conditions, quantities, and prices*
-* **Quantity Adjustment** : *Users can modify the quantity of each item directly from the cart*
-- **Remove Items** : *A straightforward process to remove unwanted items from the cart*
-+ **Price Update** : *Real-time updates on the total price as users make changes*
+## Auto Space Main Page
++ **Page Overview** : *Main page where the users can view their local time, music player which includes volume control and quotes that changes every 5 minutes interval*
+* **Volume Adjustment** : *Users can pause,stop or control the volume of the music player*
+- **Donate** : *Users can click the donate button to contribute*
++ **Switch to Manual Space** : *Users can also switch to Manual Space if they want to*
 
-<img src="https://github.com/Amirularif/OnlineCardShoppingWebsite/assets/57553676/6f296b9c-8d2f-43c7-802f-e35066b07213" width="700" height=auto>
-<img src="https://github.com/Amirularif/OnlineCardShoppingWebsite/assets/57553676/efdd437d-930a-4895-9c99-a5699a33e6e6" width="700" height=auto>
+<img src="https://github.com/Amirularif/FocuSpace/assets/57553676/57c672e7-4caf-4e87-95e8-3ccafedc8117" width="700" height=auto>
+<img src="https://github.com/Amirularif/FocuSpace/assets/57553676/6888210b-8410-4523-90bc-20f2d12a75b3" width="700" height=auto>
