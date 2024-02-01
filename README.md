@@ -26,11 +26,12 @@ Immersive Ambient Sound website that helps users to focus while doing work by li
 <img src="https://github.com/Amirularif/FocuSpace/assets/57553676/5d661f57-c663-4891-9e7d-4f9e6f25449c" width="700" height=auto>
 
 
-## Card Detail Page
-+ **Detailed Product Information** : *Users can explore comprehensive details about the selected product, including product name, description, rarity, code, set, and condition*
-* **Recommendations** : *The page intelligently suggests other cards that users might find interesting or relevant*
-  
-<img src="https://github.com/Amirularif/OnlineCardShoppingWebsite/assets/57553676/ae9609ad-8875-48fd-a059-91f317fca864" width="700" height=auto>
+## Auto Space Settings Page
++ **Information for Auto Space** : *Users can input information like what type of work they want to do, what kind of background music that they prefer and how long they are planningto do the work*
+
+<img src="https://github.com/Amirularif/FocuSpace/assets/57553676/14d8921d-ecf7-4ecf-ada4-7c5d08cd1b8b" width="700" height=auto>
+<img src="https://github.com/Amirularif/FocuSpace/assets/57553676/bf170c91-d0a7-44d2-a7f9-ef0443207a37" width="700" height=auto>
+<img src="https://github.com/Amirularif/FocuSpace/assets/57553676/830d2dcb-9d9b-4dd5-90d6-ecd04fdda993" width="700" height=auto>
 
 ## Shopping cart Page
 + **Cart Overview** : *Users get a summarized view of the products they've added to their cart, including images, names, conditions, quantities, and prices*
