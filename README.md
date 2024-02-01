@@ -53,15 +53,17 @@ Immersive Ambient Sound website that helps users to focus while doing work by li
 
 
 ## Manual Space Settings Page
-+ **Information for Manual Space** : *Because dont really need to give information for the AI, they can just simply put how long they are planning to do the work, and move to the Main Page*
++ **Information for Manual Space** : *Because users dont really need to give information for the Manual Space, they can just simply enter how long they are planning to do the work, and move to the Main Page*
 
 <img src="https://github.com/Amirularif/FocuSpace/assets/57553676/067d6655-27c8-4529-9a6e-c3ba1ab74256" width="700" height=auto>
 
-## Auto Space Main Page
-+ **Page Overview** : *Main page where the users can view their local time, music player which includes volume control and quotes that changes every 5 minutes interval*
-* **Volume Adjustment** : *Users can pause,stop or control the volume of the music player*
+## Manual Space Main Page
++ **Page Overview** : *Main page where the users can view their local time, music player on the left which includes volume control and quotes that changes every 5 minutes interval*
+* **Choosing Music and Volume Adjustment** : *Users can play, pause any combination of musics that are available on the left hand side. At start, everything will be paused and volume will be 50%. Users can pause,stop or control the volume of each music according to thier preference*
 - **Donate** : *Users can click the donate button to contribute*
-+ **Switch to Manual Space** : *Users can also switch to Manual Space if they want to*
++ **Switch to Auto Space** : *Users can also switch to Auto Space if they want to*
 
-<img src="https://github.com/Amirularif/FocuSpace/assets/57553676/57c672e7-4caf-4e87-95e8-3ccafedc8117" width="700" height=auto>
-<img src="https://github.com/Amirularif/FocuSpace/assets/57553676/6888210b-8410-4523-90bc-20f2d12a75b3" width="700" height=auto>
+<img src="https://github.com/Amirularif/FocuSpace/assets/57553676/35d18dd5-41b2-40f5-9e9a-3588d6ec5dbb" width="700" height=auto>
+<img src="https://github.com/Amirularif/FocuSpace/assets/57553676/b4414f99-92bf-4ea4-9ebc-973a3e05d93b" width="700" height=auto>
+<img src="https://github.com/Amirularif/FocuSpace/assets/57553676/23437833-7ab8-4b63-a449-068c56cb88dd" width="700" height=auto>
+
