@@ -1,0 +1,47 @@
+.auto-space-settings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .auto-space-settings h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1em;
+  }
+  
+  .auto-space-settings input[type="text"] {
+    padding: 10px;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .auto-space-settings .tip {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 2em;
+  }
+  
+  .auto-space-settings button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff00cc;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s;
+  }
+  
+  .auto-space-settings button:hover {
+    background-color: #cc0099;
+  }
+  
