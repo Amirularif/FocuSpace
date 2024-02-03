@@ -68,7 +68,6 @@
   }
   
   .player-controls input[type="range"] {
-    -webkit-appearance: none;
     width: 100%;
     background: transparent;
   }
