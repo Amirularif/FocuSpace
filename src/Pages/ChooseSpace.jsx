@@ -15,7 +15,7 @@ const ChooseSpace = () => {
 
   return (
     <div className="choose-space">
-      <h1>FocusSpace</h1>
+      <h1>FocuSpace</h1>
       <p>let our AI create the perfect space for you</p>
       <button className="button" onClick={handleAutoSpaceClick}>Auto Space</button>
       <p>or</p>

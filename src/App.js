@@ -4,6 +4,7 @@ import MainPage from './Pages/MainPage';
 import ChooseSpace from './Pages/ChooseSpace';
 import AutoSpaceSettings from './Pages/AutoSpaceSettings';
 import ManualSpaceSettings from './Pages/ManualSpaceSettings';
+import AutoSpacePage from './Pages/AutoSpacePage';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/choose-space" element={<ChooseSpace />} />
         <Route path="/auto-space-settings" element={<AutoSpaceSettings />} />
         <Route path="/manual-space-settings" element={<ManualSpaceSettings />} />
+        <Route path="/auto-space-page" element={<AutoSpacePage />} />
       </Routes>
     </Router>
   );
