@@ -15,10 +15,13 @@ const MainPage = () => {
 
   return (
     <div className="main-page">
-      <h1>FocuSpace</h1>
-      <p className="tagline">space for you to focus</p>
-      <button className="button" onClick={handleGetStartedClick}>Get Started</button>
-      <button onClick={handleSignUpClick}>Sign Up</button>
+      <div className="content-container">
+      <p className="welcome">WELCOME TO</p>
+        <h1>FocuSpace</h1>
+        <p className="tagline">A space for you to focus</p>
+        <button className="get-started-button" onClick={handleGetStartedClick}>Get Started</button>
+      </div>
+      <button className="signup-button" onClick={handleSignUpClick}>Sign Up</button>
     </div>
   );
 };

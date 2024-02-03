@@ -30,33 +30,76 @@
     background-attachment: fixed; 
     font-family: 'TTBackward', sans-serif; 
   }
+
+  .main-page .content-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 2%;
+    align-items: center;
+    backdrop-filter: blur(3px);
+    height: 60%;
+    width: 40%;
+    flex-direction: column;
+  }
   
+  .main-page .welcome {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 10px; 
+    color: white; 
+    margin-bottom: 1%;
+    margin-top: 5%; 
+  }
+
   .main-page h1 {
-    font-size: 4rem; 
-    color: #dedcdc; 
-    margin-bottom: 0.5em; 
+    font-size: 70px;
+    letter-spacing: 10px; 
+    color: white; 
+    margin-bottom: 5%;
+    margin-top: 5%; 
   }
   
   .main-page .tagline {
     font-size: 1.5rem; 
-    color: #dedcdc; 
-    margin-bottom: 2em; 
+    font-style: italic;
+    color: white; 
+    margin-bottom: 30%; 
   }
   
-  .main-page button {
+  .main-page .get-started-button {
+    align-self: flex-end;
     padding: 10px 20px; 
-    margin: 10px; 
-    border: none; 
-    border-radius: 5px; 
-    background-color: #ff00cc; 
+    margin-right: 8%; 
+    border: none;  
+    background-color: rgba(255, 0, 204, 0.7); 
     color: white; 
     font-size: 1rem; 
+    font-style: italic;
     cursor: pointer; 
     outline: none; 
     transition: background-color 0.3s; 
   }
   
-  .main-page button:hover {
+  .main-page .get-started-button:hover {
+    background-color: #cc0099;
+  }
+
+  .signup-button {
+    position: absolute;
+    top: 20px; /* Adjust as needed */
+    right: 30px;
+    padding: 10px 20px;  
+    border: none;  
+    background-color: rgba(255, 0, 204, 0.7); 
+    color: white; 
+    font-size: 1rem; 
+    cursor: pointer; 
+    outline: none;
+    transition: background-color 0.3s; 
+  }
+  
+  .signup-button:hover {
     background-color: #cc0099;
   }
   

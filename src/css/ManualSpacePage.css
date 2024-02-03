@@ -19,24 +19,42 @@
 }
 
 .manual-space-page {
+    display: flex;
+    justify-content: flex-start;
     font-family: 'TTBackward', sans-serif;
     color: #dedcdc;
-    max-width: 600px;
-    margin: 50px auto;
     padding: 20px;
+  }
+
+  .content-container{
+    display: grid;
+    grid-template-columns: 30% 70%;
+  }
+
+  .media-player-container{
+    max-width: 600px;
+  }
+
+  .info-container{
+    max-width: 600px;
     background-color: #dedcdc;   
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
   }
+
   
-  .manual-space-page .current-time {
+  .info-container .current-time {
+    font-family: 'TTCommonPro';
     font-size: 64px;
     font-weight: bold;
     text-align: center;
+    color: black;
     margin: 20px 0;
   }
   
-  .quote-display {
+  .info-container .quote-display {
+    font-family: 'TTCommonPro';
     font-size: 24px;
+    color: black;
     text-align: center;
     font-style: italic;
     margin-bottom: 30px;

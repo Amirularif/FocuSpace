@@ -6,7 +6,12 @@ import '../css/ManualSpacePage.css';
 const ManualSpacePage = () => {
     const [currentTime, setCurrentTime] = useState(new Date());
     const sounds = [
-        { title: 'Waterfall', src: '/sounds/waterfall.mp3' },
+        { title: 'Waterfall', src: '../Audios/waterfall.mp3' },
+        { title: 'Birds', src: '../Audios/birds.mp3' },
+        { title: 'October Rain', src: '../Audios/rain.mp3' },
+        { title: 'Fire place', src: '../Audios/fire.mp3' },
+        { title: 'Crickets ', src: '../Audios/crickets.mp3' },
+        { title: 'Paris cafe', src: '../Audios/cafe.mp3' },
     ];
 
     useEffect(() => {
@@ -21,25 +26,27 @@ const ManualSpacePage = () => {
     <div className="App">
       <Header />
       <div className="manual-space-page">
-        <div className="content">
+        <div className="content-container">
+          <div className="media-player-container">
             <div className="media-players">
-            {sounds.map((sound, index) => (
-                <MediaPlayer key={index} title={sound.title} src={sound.src} />
-            ))}
+              {sounds.map((sound, index) => (
+                  <MediaPlayer key={index} title={sound.title} src={sound.src} />     
+              ))}
             </div>
-            <div className="info-container">
-                <div className="current-time">
-                    {currentTime.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
-                </div>
+          </div>
+          <div className="info-container">
+            <div className="current-time">
+              {currentTime.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
+            </div>
             <div className="quote-display">Nothing is impossible</div>
             <div className="switch-container">
-                <div className="switch-text">Go auto instead?</div>
-                <button className="switch-button">Switch to Auto Space</button>
+              <div className="switch-text">Go auto instead?</div>
+              <button className="switch-button">Switch to Auto Space</button>
             </div>
-            </div>
+          </div>
         </div>
-        </div>
-      </div>  
+      </div> 
+    </div>   
   );
 };
 
