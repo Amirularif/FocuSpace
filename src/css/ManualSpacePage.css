@@ -18,20 +18,17 @@
   src: url('../Fonts/GlacialIndifference.otf') format('truetype');
 }
 
-.auto-space-page {
+.manual-space-page {
     font-family: 'TTBackward', sans-serif;
     color: #dedcdc;
     max-width: 600px;
     margin: 50px auto;
     padding: 20px;
-    background-image: url('../Images/background.png'); 
-    background-size: cover; 
-    background-repeat: no-repeat; 
-    background-attachment: fixed;   
+    background-color: #dedcdc;   
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
   }
   
-  .time-display {
+  .manual-space-page .current-time {
     font-size: 64px;
     font-weight: bold;
     text-align: center;
@@ -98,5 +95,22 @@
     text-align: center;
     font-size: 14px;
     margin-top: 10px;
+  }
+
+  .manual-space-page .switch-button {
+    padding: 10px 20px; 
+    margin: 10px; 
+    border: none; 
+    border-radius: 5px; 
+    background-color: #ff00cc; 
+    color: white; 
+    font-size: 1rem; 
+    cursor: pointer; 
+    outline: none; 
+    transition: background-color 0.3s; 
+  }
+  
+  .manual-space-page .switch-button:hover {
+    background-color: #cc0099;
   }
   

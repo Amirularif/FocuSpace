@@ -11,7 +11,7 @@ const ManualSpaceSettings = () => {
   };
 
   const handleSubmit = () => {
-    navigate('/manual-space-main', { state: { duration } });
+    navigate('/manual-space-page', { state: { duration } });
   };
 
   return (
