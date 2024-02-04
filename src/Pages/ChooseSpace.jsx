@@ -15,12 +15,14 @@ const ChooseSpace = () => {
 
   return (
     <div className="choose-space">
-      <h1>FocuSpace</h1>
-      <p>let our AI create the perfect space for you</p>
-      <button className="button" onClick={handleAutoSpaceClick}>Auto Space</button>
-      <p>or</p>
-      <button className="button" onClick={handleManualSpaceClick}>Manual Space</button>
-      <button className="button-secondary" onClick={() => navigate(-1)}>Back</button>
+      <div className="content-container">
+        <button className="back-button" onClick={() => navigate(-1)}>←</button>
+        <h1>FocuSpace</h1>
+        <p>let our AI create the perfect space for you</p>
+        <button className="button" onClick={handleAutoSpaceClick}>Auto Space</button>
+        <p>or</p>
+        <button className="button" onClick={handleManualSpaceClick}>Manual Space</button>
+      </div>
     </div>
   );
 };

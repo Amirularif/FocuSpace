@@ -27,30 +27,47 @@
     background-image: url('../Images/background.png'); 
     background-size: cover; 
     background-repeat: no-repeat; 
-    background-attachment: fixed;    
-    font-family: 'TTBackward', sans-serif;
+    background-attachment: fixed; 
+    font-family: 'TTBackward', sans-serif; 
+  }
+
+  .choose-space .content-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 2%;
+    align-items: center;
+    backdrop-filter: blur(3px);
+    height: 60%;
+    width: 40%;
+    flex-direction: column;
   }
   
   .choose-space h1 {
-    font-size: 4rem; 
-    color: #dedcdc; 
-    margin: 0.5em 0; 
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 70px;
+    letter-spacing: 10px; 
+    color: white;  
   }
   
   .choose-space p {
     font-size: 1.5rem; 
-    color: #dedcdc; 
-    margin: 20px 0; 
+    font-style: italic;
+    color: white;
+    letter-spacing: 2px; 
   }
   
   .choose-space button {
-    padding: 10px 20px; 
-    margin: 10px; 
-    border: none; 
-    border-radius: 5px; 
-    background-color: #ff00cc; 
+    margin-top: 2%;
+    align-self: center;
+    padding: 10px 10px; 
+    width: 200px;
+    border: none;  
+    background-color: rgba(255, 0, 204, 0.7); 
     color: white; 
     font-size: 1rem; 
+    font-style: italic;
     cursor: pointer; 
     outline: none; 
     transition: background-color 0.3s; 
@@ -60,14 +77,24 @@
     background-color: #cc0099; 
   }
   
-  .choose-space .button-secondary {
-    background-color: #eeeeee; 
-    color: #333; 
+  .choose-space .back-button {
+    align-self: flex-start;
+    padding: 10px 10px; 
+    width: 50px;
+    margin-left: 2%;
+    margin-top: 2%;
+    background-color: transparent; 
+    color: white; 
+    font-size: 20px; 
+    font-style: bold;
+    cursor: pointer; 
+    outline: none;
+  }
+
+  .choose-space .back-button:hover {
+    background-color: transparent; 
   }
   
-  .choose-space .button-secondary:hover {
-    background-color: #cccccc; 
-  }
   
   
   
