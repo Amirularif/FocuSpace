@@ -16,7 +16,7 @@ const ChooseSpace = () => {
   return (
     <div className="choose-space">
       <div className="content-container">
-        <button className="back-button" onClick={() => navigate(-1)}>←</button>
+        <button className="back-button" onClick={() => navigate('/')}>←</button>
         <h1>FocuSpace</h1>
         <p>let our AI create the perfect space for you</p>
         <button className="button" onClick={handleAutoSpaceClick}>Auto Space</button>

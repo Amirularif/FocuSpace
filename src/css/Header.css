@@ -19,33 +19,41 @@
 }
 
 .header {
-    display: flex;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    align-items:flex-start;
     justify-content:left;
-    color: #dedcdc;
     padding: 10px 20px;
-    border-bottom: 2px solid #2F2838;
-    height: 100px;
-    background-color: darkblue;
+    backdrop-filter: blur(3px);
+    height: 85px;
+    background-color: rgba(1, 1, 22, 0.4); 
     font-family: 'TTBackward', sans-serif; 
   }
   
   .header h1 {
-    font-size: 4rem; 
-    color: #dedcdc; 
-    margin-bottom: 0.5em; 
+    align-self: center;
+    justify-self: flex-start;
+    margin-left: 5%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    font-size: 50px; 
+    color: #e9e7e7;  
+    letter-spacing: 2px;
   }
 
   .header button {
-    padding: 10px 20px; 
-    margin: 10px; 
-    border: none; 
-    border-radius: 5px; 
-    background-color: #ff00cc; 
+    align-self: center;
+    justify-self: flex-end;
+    margin-right: 3%;
+    width: 120px;
+    padding: 10px 20px;  
+    border: none;  
+    background-color: rgba(255, 0, 204, 0.7); 
     color: white; 
-    font-size: 1rem; 
+    font-size: 1rem;
+    letter-spacing: 1px; 
     cursor: pointer; 
-    outline: none; 
+    outline: none;
     transition: background-color 0.3s; 
   }
   

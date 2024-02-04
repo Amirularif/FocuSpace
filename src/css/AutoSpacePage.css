@@ -18,40 +18,61 @@
   src: url('../Fonts/GlacialIndifference.otf') format('truetype');
 }
 
-.App{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh; 
+.auto-space-page{
+  height: 100vh;
   background-image: url('../Images/background.png'); 
   background-size: cover; 
   background-repeat: no-repeat; 
   background-attachment: fixed;
-}
+  font-family: 'TTBackward', sans-serif;
+  }
 
-.auto-space-page {
-    font-family: 'TTBackward', sans-serif;
-    color: #dedcdc;
-    max-width: 600px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color:white;   
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  .auto-space-page .content-container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    height: 85vh;
   }
   
+  .auto-space-page .time-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10%;
+    backdrop-filter: blur(6px);
+    height: 80%;
+    width: 80%;
+    color: #fff;
+  }
+
+  .time-container .title{
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 6px;
+  }
+
+  .time-container .currently{
+    font-size: 20px;
+    font-weight: 200;
+    font-style: italic;
+    letter-spacing: 1px;
+    color: #f6dcb8;
+  }
+
   .time-display {
-    font-size: 64px;
-    font-weight: bold;
+    font-size: 100px;
+    font-weight: 900;
     text-align: center;
-    margin: 20px 0;
+    letter-spacing: 20px;
+    color: #fff;
   }
   
   .quote-display {
     font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 3px;
     text-align: center;
-    font-style: italic;
-    margin-bottom: 30px;
+    margin-top: 2%;
   }
   
   .player-controls {
