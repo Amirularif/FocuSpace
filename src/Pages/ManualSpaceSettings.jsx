@@ -16,15 +16,19 @@ const ManualSpaceSettings = () => {
 
   return (
     <div className="manual-space-settings">
-      <h1>How long you planning to do?</h1>
-      <input
-        type="text"
-        value={duration}
-        onChange={handleDurationChange}
-        placeholder="30 minutes or 1 hour.."
-      />
-      <p className="tip">Tips: It's about utilizing the time, 30 minutes of focus work is better than 1 hour of non focus work</p>
-      <button onClick={handleSubmit}>Done</button>
+      <div className="content-container">
+        <button className="back-button" onClick={() => navigate(-1)}>←</button>
+        <h1>FocuSpace</h1>
+        <h2>How long you planning to do?</h2>
+        <input
+          type="text"
+          value={duration}
+          onChange={handleDurationChange}
+          placeholder="30 minutes or 1 hour.."
+        />
+        <p className="tip">Tips: It's about utilizing the time, 30 minutes of focus work is better than 1 hour of non focus work</p>
+        <button onClick={handleSubmit}>Done &nbsp; →</button>
+      </div>
     </div>
   );
 };
