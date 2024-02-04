@@ -1,13 +1,23 @@
 import React, { useState, useEffect } from 'react';
 import { Howl, Howler } from 'howler';
 import Header from '../Components/Header';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPlay, faPause } from '@fortawesome/free-solid-svg-icons';
+import MediaPlayer from '../Components/MediaPlayer.jsx';
 import '../css/AutoSpacePage.css'; 
 
 const AutoSpacePage = () => {
   const [isPlaying, setIsPlaying] = useState(false);
   const [volume, setVolume] = useState(0.5); 
   const [currentTime, setCurrentTime] = useState(new Date());
-
+  const sounds = [
+    { title: 'Waterfall', src: '../Audios/waterfall.mp3' },
+    { title: 'Birds', src: '../Audios/birds.mp3' },
+    { title: 'October Rain', src: '../Audios/rain.mp3' },
+    { title: 'Fire place', src: '../Audios/fire.mp3' },
+    { title: 'Crickets ', src: '../Audios/crickets.mp3' },
+    { title: 'Paris cafe', src: '../Audios/cafe.mp3' },
+  ];
   
   useEffect(() => {
     const intervalId = setInterval(() => {
@@ -17,18 +27,16 @@ const AutoSpacePage = () => {
     return () => clearInterval(intervalId);
   }, []);
 
-  // Setup the sound
-  const sound = new Howl({
+  const automusic = new Howl({
     src: ['/AutoSpaceMusic.mp3'], 
     volume: volume,
   });
 
-  // Play or pause the sound
   const togglePlayPause = () => {
     if (isPlaying) {
-      sound.pause();
+      automusic.pause();
     } else {
-      sound.play();
+      automusic.play();
     }
     setIsPlaying(!isPlaying);
   };
@@ -45,7 +53,11 @@ const AutoSpacePage = () => {
       <Header />
       <div className="content-container">
         <div className="media-player-container">
-          
+          <div className="media-players">
+            {sounds.map((sound, index) => (
+              <MediaPlayer key={index} title={sound.title} src={sound.src} />     
+            ))}
+          </div>
         </div>
         <div className="time-container">
           <h1 className="title">Auto &nbsp; Space</h1>
@@ -54,20 +66,31 @@ const AutoSpacePage = () => {
             {currentTime.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
           </div>
           <div className="quote-display">Quote : Rome wasn’t built in a day</div>
-          <div className="player-controls">
-            <button onClick={togglePlayPause}>
-              {isPlaying ? 'Pause' : 'Play'}
-            </button>
-            <input
-              type="range"
-              min="0"
-              max="100"
-              value={volume * 100}
-              onChange={adjustVolume}
-            />
-          </div>
-          <div className="volume-tip">
-            Tips: Adjust the sound as you like
+          <div className="player-control-container">
+            <div className="button-controls-container">
+              <button className="play-pause-button" onClick={togglePlayPause}>
+                {isPlaying ? (
+                  <FontAwesomeIcon icon={faPause} />
+                ) : (
+                  <FontAwesomeIcon icon={faPlay} />
+                )}
+              </button>
+            </div>
+            <div className="player-controls-container">
+              <p className="music-title"> FocuSpace Music 🔊</p>
+              <div className="player-controls">
+              <input
+                type="range"
+                min="0"
+                max="100"
+                value={volume * 100}
+                onChange={adjustVolume}
+              />
+              </div>
+              <div className="tip">
+              Tips: Adjust the sound as you like ◡̈
+              </div>
+            </div>
           </div>
         </div>
       </div>

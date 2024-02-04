@@ -45,6 +45,24 @@
     color: #fff;
   }
 
+  .auto-space-page .media-player-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 15%;
+    padding-top: 15px;
+    margin-left: 17%;
+    backdrop-filter: blur(2px);
+    background-color: rgba(3, 10, 31, 0.66); 
+    width: 60%;
+    height: 80%;
+  }
+
+  .media-players{
+    width: 90%;
+  }
+  
   .time-container .title{
     font-size: 30px;
     font-weight: 600;
@@ -54,16 +72,18 @@
   .time-container .currently{
     font-size: 20px;
     font-weight: 200;
+    margin-top: 3%;
     font-style: italic;
     letter-spacing: 1px;
     color: #f6dcb8;
   }
 
   .time-display {
-    font-size: 100px;
+    font-size: 130px;
     font-weight: 900;
     text-align: center;
     letter-spacing: 20px;
+    margin-top: 2%;
     color: #fff;
   }
   
@@ -72,7 +92,72 @@
     font-weight: 500;
     letter-spacing: 3px;
     text-align: center;
-    margin-top: 2%;
+    margin-top: 6%;
+  }
+
+  .time-container .player-control-container{
+    display: grid;
+    grid-template-columns: 10% 90%;
+    margin-top: 9%;
+    align-self: center;
+    width: 90%;
+    padding-right: 20px;
+    height: 87px;
+    border: none;  
+    background-color: rgba(7, 20, 57, 0.76); 
+    border-radius: 5px;
+    color: white; 
+    font-size: 1rem; 
+    font-style: italic;
+    cursor: pointer; 
+    outline: none;  
+  }
+
+  .player-control-container .player-controls-container{
+    display: flex;
+    flex-direction: column;
+    font-family: "TTBackward";
+    padding: 3px 10px;
+  }
+
+  .player-controls-container .music-title {
+    align-self: flex-start;
+    margin: 5px;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 3px;
+    color: #fff;
+  }
+  
+  .player-control-container .button-controls-container{
+    align-self: center;
+    justify-self: center;
+    width: 50px;
+    height: 50px;
+    padding: 2px 2px; 
+    margin: 10px 10px 10px 15px;
+    border: none;  
+    background-color: rgba(255, 0, 204, 0.7);
+    border-radius: 2.5px;
+    cursor: pointer;
+  }
+
+  .button-controls-container .play-pause-button {
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: transparent; 
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .fa-play, .fa-pause {
+    font-size: 24px;
   }
   
   .player-controls {
@@ -80,21 +165,6 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
-  }
-  
-  .player-controls button {
-    padding: 10px 20px;
-    font-size: 16px;
-    color: #fff;
-    background-color: #007bff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  .player-controls button:hover {
-    background-color: #0056b3;
   }
   
   .player-controls input[type="range"] {
@@ -123,9 +193,13 @@
     cursor: pointer;
   }
   
-  .volume-tip {
-    text-align: center;
+  .player-controls-container .tip {
+    justify-self: flex-start;
     font-size: 14px;
-    margin-top: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-top: 5px;
   }
   

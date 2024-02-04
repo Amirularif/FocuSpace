@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'TTBackward'; 
+    src: url('../Fonts/GlacialIndifference.otf') format('truetype'); 
+  }
+  
+  @font-face {
+    font-family: 'Klandestin';
+    src: url('../Fonts//klandestin.otf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'TTCommonPro';
+    src: url('../Fonts/ttcommonpro.otf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'GlacialIndifference';
+    src: url('../Fonts/GlacialIndifference.otf') format('truetype');
+  }
+
+  .sound-player-container{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    margin-top: 2%;
+    align-self: center;
+    width: 90%;
+    padding-right: 20px;
+    height: 87px;
+    border: none;  
+    background-color:transparent; 
+    border-radius: 5px;
+    color: white; 
+    font-size: 1rem; 
+    font-style: italic;
+    cursor: pointer; 
+    outline: none;  
+  }
+
+  .sound-player-container .sound-control-container{
+    display: flex;
+    flex-direction: column;
+    font-family: "TTBackward";
+    padding: 3px 10px;
+  }
+
+  .sound-control-container .sound-title {
+    align-self: flex-start;
+    margin: 5px 5px 10px 5px;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 3px;
+    color: #fff;
+  }
+  
+  .sound-player-container .button-controls-container{
+    align-self: center;
+    justify-self: center;
+    width: 50px;
+    height: 50px;
+    padding: 2px 2px; 
+    margin: 5px 5px 20px 17px;
+    border: none;  
+    background-color: transparent;
+    border-radius: 2.5px;
+    cursor: pointer;
+  }
+
+  .button-controls-container .sound-play-pause-button {
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: transparent; 
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .sound-player-container .fa-play, .fa-pause {
+    font-size: 27px;
+  }
+  
+  .sound-player-container .player-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .sound-player-container .player-controls input[type="range"] {
+    width: 100%;
+    background: transparent;
+  }
+  
+  .sound-player-container .player-controls input[type="range"]:focus {
+    outline: none;
+  }
+  
+  .sound-player-container .player-controls input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: #007bff;
+    cursor: pointer;
+  }
+  
+  .sound-player-container .player-controls input[type="range"]::-moz-range-thumb {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: #007bff;
+    cursor: pointer;
+  }
