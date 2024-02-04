@@ -31,40 +31,107 @@
     font-family: 'TTBackward', sans-serif;
   }
   
+  .auto-space-settings .content-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 2%;
+    align-items: center;
+    backdrop-filter: blur(3px);
+    height: 60%;
+    width: 40%;
+    flex-direction: column;
+  }
+
+  .auto-space-settings .back-button {
+    align-self: flex-start;
+    padding: 10px 10px; 
+    width: 50px;
+    margin-left: 2%;
+    margin-top: 2%;
+    background-color: transparent; 
+    color: white; 
+    font-size: 20px; 
+    font-style: bold;
+    cursor: pointer; 
+    outline: none;
+  }
+
+  .auto-space-settings .back-button:hover {
+    background-color: transparent; 
+  }
+
   .auto-space-settings h1 {
-    font-size: 2rem;
-    color: #dedcdc;
-    margin-bottom: 1em;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 70px;
+    letter-spacing: 10px; 
+    color: white;  
+  }
+
+  .auto-space-settings .prompt-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+  }
+
+  .auto-space-settings h2{
+    font-size: 25px; 
+    font-weight: 500;
+    color: white;
+    letter-spacing: 2px; 
   }
   
   .auto-space-settings input[type="text"] {
     padding: 10px;
-    margin-bottom: 1em;
-    border: 1px solid #ccc;
+    color: white;
+    width: 60%;
+    border: 1px solid rgb(220, 219, 219);
+    background: transparent;
     border-radius: 5px;
     font-size: 1rem;
+    outline: none;
+  }
+
+  .auto-space-settings input[type=text]:focus {
+    border: 1px solid white;
+  }
+
+  ::placeholder{
+    color: white;
   }
   
   .auto-space-settings .tip {
-    font-size: 0.9rem;
-    color: #dedcdc;
-    margin-bottom: 2em;
+    align-self: center;
+    margin-left: 18%;
+    margin-right: 18%;
+    margin-bottom: 8%;
+    font-size: 15px; 
+    font-weight:300;
+    font-style: italic;
+    color: white;
+    letter-spacing: 2px; 
   }
   
   .auto-space-settings button {
-    padding: 10px 20px;
-    margin: 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: #ff00cc;
-    color: white;
-    font-size: 1rem;
-    cursor: pointer;
-    outline: none;
-    transition: background-color 0.3s;
+    align-self: flex-end;
+    padding: 10px 10px; 
+    margin-right: 8%; 
+    width: 140px;
+    border: none;  
+    background-color: transparent; 
+    color: rgb(203, 202, 202); 
+    font-size: 20px; 
+    font-style: italic;
+    cursor: pointer; 
+    outline: none; 
+    transition: background-color 0.3s; 
   }
   
   .auto-space-settings button:hover {
-    background-color: #cc0099;
+    background-color: transparent;
+    color: white;
   }
   

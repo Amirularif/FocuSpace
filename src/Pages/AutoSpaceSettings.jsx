@@ -17,6 +17,14 @@ const AutoSpaceSettings = () => {
     setResponses({ ...responses, [name]: value });
   };
 
+  const goToPreviousPrompt = () => {
+    if (currentPrompt > 0) {
+      setCurrentPrompt(currentPrompt - 1);
+    } else {
+      navigate('/choose-space');
+    }
+  };
+
   const goToNextPrompt = () => {
     if (currentPrompt < 2) {
       setCurrentPrompt(currentPrompt + 1);
@@ -29,8 +37,8 @@ const AutoSpaceSettings = () => {
     switch (currentPrompt) {
       case 0:
         return (
-          <div>
-            <h1>What kind of work you want to do?</h1>
+          <div className="prompt-container">
+            <h2>What kind of work you want to do?</h2>
             <input
               type="text"
               name="workType"
@@ -43,8 +51,8 @@ const AutoSpaceSettings = () => {
         );
       case 1:
         return (
-          <div>
-            <h1>What kind of environment you prefer?</h1>
+          <div className="prompt-container">
+            <h2>What kind of environment you prefer?</h2>
             <input
               type="text"
               name="environment"
@@ -57,8 +65,8 @@ const AutoSpaceSettings = () => {
         );
       case 2:
         return (
-          <div>
-            <h1>How long you planning to do?</h1>
+          <div className="prompt-container">
+            <h2>How long you planning to do?</h2>
             <input
               type="text"
               name="duration"
@@ -76,8 +84,12 @@ const AutoSpaceSettings = () => {
 
   return (
     <div className="auto-space-settings">
-      {renderPrompt()}
-      <button onClick={goToNextPrompt}>{currentPrompt < 2 ? 'Next' : 'Done'}</button>
+      <div className="content-container">
+        <button className="back-button" onClick={goToPreviousPrompt}>←</button>
+        <h1>FocuSpace</h1>
+        {renderPrompt()}
+        <button onClick={goToNextPrompt}>{currentPrompt < 2 ? 'Next\u00A0\u00A0>' : 'Done'}</button>
+      </div>
     </div>
   );
 };
