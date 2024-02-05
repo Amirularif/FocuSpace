@@ -18,7 +18,7 @@ const AutoSpacePage = () => {
     { title: 'Crickets ', src: '../Audios/crickets.mp3' },
     { title: 'Paris cafe', src: '../Audios/cafe.mp3' },
   ];
-  
+ 
   useEffect(() => {
     const intervalId = setInterval(() => {
       setCurrentTime(new Date());
@@ -47,6 +47,14 @@ const AutoSpacePage = () => {
     setVolume(newVolume);
     Howler.volume(newVolume);
   };
+
+  const sliderStyle = () => {
+    const progress = volume * 100;
+    return {
+      background: `linear-gradient(to right, #f50 ${progress}%, #ccc ${progress}%)`
+    };
+  };
+
 
   return (
     <div className="auto-space-page">
@@ -79,13 +87,15 @@ const AutoSpacePage = () => {
             <div className="player-controls-container">
               <p className="music-title"> FocuSpace Music 🔊</p>
               <div className="player-controls">
-              <input
-                type="range"
-                min="0"
-                max="100"
-                value={volume * 100}
-                onChange={adjustVolume}
-              />
+                <input className="auto-space-slider"
+                  type="range"
+                  min="0"
+                  max="100"
+                  value={volume * 100}
+                  onChange={adjustVolume}
+                  style={sliderStyle()} // Apply the dynamic background style here
+                />
+                <div className="value">{Math.round(volume * 100)}</div>
               </div>
               <div className="tip">
               Tips: Adjust the sound as you like ◡̈

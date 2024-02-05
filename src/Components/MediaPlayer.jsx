@@ -48,8 +48,8 @@ const MediaPlayer = ({ src, title }) => {
       </div>
       <div className="sound-control-container">
         <p className="sound-title"> {title} 🔊</p>
-        <div className="player-controls">
-        <input
+        <div className="sound-player-controls">
+        <input className="sound-player-slider"
           type="range"
           min="0"
           max="1"
