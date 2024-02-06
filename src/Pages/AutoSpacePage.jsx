@@ -3,10 +3,12 @@ import { Howl, Howler } from 'howler';
 import Header from '../Components/Header';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlay, faPause } from '@fortawesome/free-solid-svg-icons';
+import { useNavigate } from 'react-router-dom';
 import MediaPlayer from '../Components/MediaPlayer.jsx';
 import '../css/AutoSpacePage.css'; 
 
 const AutoSpacePage = () => {
+  const navigate = useNavigate();
   const [isPlaying, setIsPlaying] = useState(false);
   const [volume, setVolume] = useState(0.5); 
   const [currentTime, setCurrentTime] = useState(new Date());
@@ -18,6 +20,10 @@ const AutoSpacePage = () => {
     { title: 'Crickets ', src: '../Audios/crickets.mp3' },
     { title: 'Paris cafe', src: '../Audios/cafe.mp3' },
   ];
+  
+  const navigateToManualSpace = () => {
+    navigate('/manual-space-page'); 
+  };
  
   useEffect(() => {
     const intervalId = setInterval(() => {
@@ -65,6 +71,9 @@ const AutoSpacePage = () => {
               <MediaPlayer key={index} title={sound.title} src={sound.src} />     
             ))}
           </div>
+        </div>
+        <div className="overlay-container" onClick={navigateToManualSpace}>
+          <button className="manual-switch-button">Switch to Manual Space</button>
         </div>
         <div className="time-container">
           <h1 className="title">Auto &nbsp; Space</h1>
