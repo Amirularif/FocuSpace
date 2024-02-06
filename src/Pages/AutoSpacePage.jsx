@@ -41,7 +41,6 @@ const AutoSpacePage = () => {
     setIsPlaying(!isPlaying);
   };
 
-  // Adjust the volume
   const adjustVolume = (e) => {
     let newVolume = parseInt(e.target.value) / 100;
     setVolume(newVolume);
@@ -93,7 +92,7 @@ const AutoSpacePage = () => {
                   max="100"
                   value={volume * 100}
                   onChange={adjustVolume}
-                  style={sliderStyle()} // Apply the dynamic background style here
+                  style={sliderStyle()}
                 />
                 <div className="value">{Math.round(volume * 100)}</div>
               </div>

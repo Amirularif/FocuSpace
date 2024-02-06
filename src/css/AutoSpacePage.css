@@ -200,6 +200,8 @@
     font-size: 26px;    
     width: 50px;
     text-align: center;
+    font-style: normal;
+    font-weight: 300;
   }
   
   .player-controls-container .tip {

@@ -21,11 +21,18 @@ const MediaPlayer = ({ src, title }) => {
   };
 
   const handleVolumeChange = (e) => {
-    const newVolume = parseFloat(e.target.value);
+    const newVolume = parseFloat(e.target.value) / 100;
     setVolume(newVolume);
     if (soundRef.current) {
       soundRef.current.volume(newVolume);
     }
+  };
+
+  const sliderStyle = () => {
+    const progress = volume * 100;
+    return {
+      background: `linear-gradient(to right, #f7f5f4 ${progress}%, #646464 ${progress}%)`
+    };
   };
 
   if (!soundRef.current) {
@@ -49,14 +56,15 @@ const MediaPlayer = ({ src, title }) => {
       <div className="sound-control-container">
         <p className="sound-title"> {title} 🔊</p>
         <div className="sound-player-controls">
-        <input className="sound-player-slider"
-          type="range"
-          min="0"
-          max="1"
-          step="0.01"
-          value={volume}
-          onChange={handleVolumeChange}
-        />
+          <input className="sound-player-slider"
+            type="range"
+            min="0"
+            max="100"
+            value={volume * 100}
+            onChange={handleVolumeChange}
+            style={sliderStyle()}
+          />
+          <div className="sound-player-value">{Math.round(volume * 100)}</div>
         </div>
       </div>
     </div>
