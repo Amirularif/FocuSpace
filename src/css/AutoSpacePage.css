@@ -39,7 +39,7 @@
     justify-content: flex-start;
     align-items: center;
     margin-top: 6.5%;
-    backdrop-filter: blur(6px);
+    backdrop-filter: blur(7px);
     height: 80%;
     width: 80%;
     color: #fff;
@@ -122,17 +122,27 @@
   }
   
   .quote-display {
+    font-family: "GlacialIndifference";
     font-size: 24px;
     font-weight: 500;
     letter-spacing: 3px;
     text-align: center;
-    margin-top: 6%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    transition: opacity 0.5s ease-in-out;
+    opacity: 1;
+    height: 60px;
+  }
+
+  .quote-display.hidden {
+    opacity: 0;
   }
 
   .time-container .player-control-container{
     display: grid;
     grid-template-columns: 10% 90%;
-    margin-top: 9%;
+    margin-top: 5%;
     align-self: center;
     width: 90%;
     padding-right: 20px;
