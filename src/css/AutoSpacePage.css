@@ -86,7 +86,7 @@
     border-radius: 2.5px;
     cursor: pointer;
     text-transform: uppercase; 
-    background-color: rgba(255, 0, 204, 0.7);
+    background-color: rgba(255, 0, 204, 0.5);
   }
   
   .manual-switch-button:hover {
