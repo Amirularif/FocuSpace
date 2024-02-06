@@ -68,7 +68,7 @@ const AutoSpacePage = () => {
   useEffect(() => {
     const intervalId = setInterval(() => {
       setCurrentTime(new Date());
-    }, 60000);
+    }, 1000);
 
     return () => clearInterval(intervalId);
   }, []);
@@ -96,10 +96,12 @@ const AutoSpacePage = () => {
           <button className="manual-switch-button">Switch to Manual Space</button>
         </div>
         <div className="time-container">
-          <h1 className="title">Auto &nbsp; Space</h1>
+          <h1 className="title">Auto &nbsp;Space</h1>
           <h2 className="currently">Currently it's</h2>
           <div className="time-display">
-            {currentTime.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
+            <span className="time-segment">{currentTime.getHours().toString().padStart(2, '0')}</span>:
+            <span className="time-segment">{currentTime.getMinutes().toString().padStart(2, '0')}</span>:
+            <span className="time-segment" id="seconds">{currentTime.getSeconds().toString().padStart(2, '0')}</span>
           </div>
           <div className={`quote-display ${quoteVisible ? '' : 'hidden'}`}>{quotes[currentQuoteIndex]}</div>
           <div className="player-control-container">

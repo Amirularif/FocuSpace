@@ -7,6 +7,10 @@
   font-family: 'Klandestin';
   src: url('../Fonts//klandestin.otf') format('truetype');
 }
+@font-face {
+  font-family: 'Samsung';
+  src: url('../Fonts//samsungsharpsans.otf') format('truetype');
+}
 
 @font-face {
   font-family: 'TTCommonPro';
@@ -66,7 +70,7 @@
     left: 119px;
     width: 404px;
     height: 595px;
-    background: rgba(130, 130, 130, 0.3);
+    background: rgba(130, 130, 130, 0.25);
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
     display: flex;
@@ -104,15 +108,19 @@
   }
 
   .time-container .currently{
-    font-size: 20px;
-    font-weight: 200;
+    font-family: "Samsung";
+    font-size: 18px;
+    font-weight: 100;
     margin-top: 3%;
     font-style: italic;
     letter-spacing: 1px;
-    color: #f6dcb8;
+    color: #f7e1ab;
   }
 
   .time-display {
+    display: flex;
+    justify-content: center;
+    font-family: "Samsung";
     font-size: 130px;
     font-weight: 900;
     text-align: center;
@@ -148,7 +156,7 @@
     padding-right: 20px;
     height: 87px;
     border: none;  
-    background-color: rgba(7, 20, 57, 0.76); 
+    background-color: rgba(7, 20, 57, 0.7); 
     border-radius: 5px;
     color: white; 
     font-size: 1rem; 
@@ -257,4 +265,9 @@
     letter-spacing: 2px;
     margin-top: 5px;
     margin-left: 3px;
+  }
+
+  #seconds {
+    color: #eb69bd; 
+    font-weight: 100;
   }
