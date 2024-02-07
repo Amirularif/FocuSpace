@@ -6,6 +6,11 @@ import Header from '../Components/Header';
 import MediaPlayer from '../Components/MediaPlayer.jsx';
 import quotes from '../Data/quotes.json';
 import WaterfallSound from '../Audios/waterfall.mp3';
+import BirdsSound from '../Audios/birds.mp3';
+import RainSound from '../Audios/rain.mp3';
+import FireSound from '../Audios/fire.mp3';
+import CricketsSound from '../Audios/crickets.mp3';
+import CafeSound from '../Audios/cafe.mp3';
 import '../css/ManualSpacePage.css'; 
 
 const ManualSpacePage = () => {
@@ -16,12 +21,21 @@ const ManualSpacePage = () => {
   const [quoteVisible, setQuoteVisible] = useState(true);
   const sounds = [
       { title: 'Waterfall', src: WaterfallSound },
-      { title: 'Birds', src: '../Audios/birds.mp3' },
-      { title: 'October Rain', src: '../Audios/rain.mp3' },
-      { title: 'Fire place', src: '../Audios/fire.mp3' },
-      { title: 'Crickets ', src: '../Audios/crickets.mp3' },
-      { title: 'Paris cafe', src: '../Audios/cafe.mp3' },
+      { title: 'Birds', src: BirdsSound },
+      { title: 'October Rain', src: RainSound },
+      { title: 'Fire place', src: FireSound },
+      { title: 'Crickets ', src: CricketsSound },
+      { title: 'Paris cafe', src: CafeSound },
   ];
+
+  const sliderStyle = () => {
+    const progress = volume * 100;
+    return {background: `linear-gradient(to right, #f50 ${progress}%, #ccc ${progress}%)`};
+  };
+
+  const navigateToAutoSpace = () => {
+    navigate('/auto-space-page'); 
+  };
 
   const changeQuoteWithTransition = () => {
     setQuoteVisible(false);
@@ -48,17 +62,6 @@ const ManualSpacePage = () => {
 
     return () => clearInterval(quoteChangeInterval);
   }, []);
-
-  const sliderStyle = () => {
-    const progress = volume * 100;
-    return {
-      background: `linear-gradient(to right, #f50 ${progress}%, #ccc ${progress}%)`
-    };
-  };
-
-  const navigateToAutoSpace = () => {
-    navigate('/auto-space-page'); 
-  };
 
   return (
     <div className="manual-space-page">
@@ -96,9 +99,7 @@ const ManualSpacePage = () => {
                 />
                 <div className="value"></div>
               </div>
-              <div className="tip">
-              Tips: Adjust the sound as you like ◡̈
-              </div>
+              <div className="tip">Tips: Adjust the sound as you like ◡̈</div>
             </div>
           </div>
         </div>

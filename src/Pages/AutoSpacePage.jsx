@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Howl, Howler } from 'howler';
-import Header from '../Components/Header';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlay, faPause } from '@fortawesome/free-solid-svg-icons';
 import { useNavigate } from 'react-router-dom';
+import Header from '../Components/Header';
 import MediaPlayer from '../Components/MediaPlayer.jsx';
 import quotes from '../Data/quotes.json';
 import autoSpaceMusic from '../Audios/AutoSpaceMusic.mp3';
@@ -26,25 +26,6 @@ const AutoSpacePage = () => {
     { title: 'Crickets ', src: '../Audios/crickets.mp3' },
     { title: 'Paris cafe', src: '../Audios/cafe.mp3' },
   ];
-
-  useEffect(() => {
-    automusicRef.current = new Howl({
-      src: [autoSpaceMusic], 
-      volume: volume,
-    });
-
-    return () => {
-      automusicRef.current.stop();
-    };
-  }, []);
-
-  useEffect(() => {
-    if (isPlaying) {
-      automusicRef.current.play();
-    } else {
-      automusicRef.current.pause();
-    }
-  }, [isPlaying]); 
 
   const togglePlayPause = () => {
     setIsPlaying(!isPlaying);
@@ -77,6 +58,25 @@ const AutoSpacePage = () => {
     navigate('/manual-space-page'); 
   };
  
+  useEffect(() => {
+    automusicRef.current = new Howl({
+      src: [autoSpaceMusic], 
+      volume: volume,
+    });
+
+    return () => {
+      automusicRef.current.stop();
+    };
+  }, []);
+
+  useEffect(() => {
+    if (isPlaying) {
+      automusicRef.current.play();
+    } else {
+      automusicRef.current.pause();
+    }
+  }, [isPlaying]); 
+
   useEffect(() => {
     const intervalId = setInterval(() => {
       setCurrentTime(new Date());
@@ -139,9 +139,7 @@ const AutoSpacePage = () => {
                 />
                 <div className="value">{Math.round(volume * 100)}</div>
               </div>
-              <div className="tip">
-              Tips: Adjust the sound as you like ◡̈
-              </div>
+              <div className="tip">Tips: Adjust the sound as you like ◡̈</div>
             </div>
           </div>
         </div>

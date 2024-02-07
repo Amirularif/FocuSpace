@@ -89,24 +89,6 @@
     color: #fff;
   }
   
-  .quote-display {
-    font-family: "GlacialIndifference";
-    font-size: 24px;
-    font-weight: 500;
-    letter-spacing: 3px;
-    text-align: center;
-    margin-top: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
-    transition: opacity 0.5s ease-in-out;
-    opacity: 1;
-    height: 60px;
-  }
-
-  .quote-display.hidden {
-    opacity: 0;
-  }
-  
   .player-control-container{
     display: grid;
     grid-template-columns: 10% 90%;
@@ -125,12 +107,6 @@
     cursor: pointer; 
     outline: none;  
     position: relative;
-  }
-
-  .volume-tip {
-    text-align: center;
-    font-size: 14px;
-    margin-top: 10px;
   }
 
   .manual-space-overlay-container {

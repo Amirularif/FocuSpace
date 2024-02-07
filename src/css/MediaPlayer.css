@@ -4,16 +4,6 @@
   }
   
   @font-face {
-    font-family: 'Klandestin';
-    src: url('../Fonts//klandestin.otf') format('truetype');
-  }
-  
-  @font-face {
-    font-family: 'TTCommonPro';
-    src: url('../Fonts/ttcommonpro.otf') format('truetype');
-  }
-  
-  @font-face {
     font-family: 'GlacialIndifference';
     src: url('../Fonts/GlacialIndifference.otf') format('truetype');
   }
