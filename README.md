@@ -2,7 +2,9 @@
 Immersive Ambient Sound website that helps users to focus while doing work by listening to suitable background music build using ReactJs. Also has an Auto Space function which includes AI build using Tensorflow, that provide an auto suitable background music based on given preferences
 
 # Screen Record (So far)
-*will upload soon*
+https://github.com/Amirularif/FocuSpace/assets/57553676/44f669cf-d050-40b1-b22e-6becceceb0dc
+
+
 
 # Platform that will be use 
 
