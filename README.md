@@ -35,7 +35,7 @@ https://github.com/Amirularif/FocuSpace/assets/57553676/44f669cf-d050-40b1-b22e-
 
 ## Auto Space Settings Page
 + **Information for Auto Space** : *Users can input information like what type of work they want to do, what kind of background music that they prefer and how long they are planningto do the work*
-
+  
 <img src="https://github.com/Amirularif/FocuSpace/assets/57553676/14d8921d-ecf7-4ecf-ada4-7c5d08cd1b8b" width="700" height=auto>
 <img src="https://github.com/Amirularif/FocuSpace/assets/57553676/bf170c91-d0a7-44d2-a7f9-ef0443207a37" width="700" height=auto>
 <img src="https://github.com/Amirularif/FocuSpace/assets/57553676/830d2dcb-9d9b-4dd5-90d6-ecd04fdda993" width="700" height=auto>
@@ -47,7 +47,7 @@ https://github.com/Amirularif/FocuSpace/assets/57553676/44f669cf-d050-40b1-b22e-
 + **Switch to Manual Space** : *Users can also switch to Manual Space if they want to*
 
 <img src="https://github.com/Amirularif/FocuSpace/assets/57553676/57c672e7-4caf-4e87-95e8-3ccafedc8117" width="700" height=auto>
-<img src="https://github.com/Amirularif/FocuSpace/assets/57553676/6888210b-8410-4523-90bc-20f2d12a75b3" width="700" height=auto>
+<img src="https://github.com/Amirularif/FocuSpace/assets/57553676/1fce5703-f08d-44e9-8138-80eed176f1d5" width="700" height=auto>
 
 # 2.Wireframe Design Ideas (*Manual Space*)
 ## Start Page & Choose Manual Space Page
@@ -70,5 +70,5 @@ https://github.com/Amirularif/FocuSpace/assets/57553676/44f669cf-d050-40b1-b22e-
 - **Donate** : *Users can click the donate button to contribute*
 + **Switch to Manual Space** : *Users can also switch to Manual Space if they want to*
 
-<img src="https://github.com/Amirularif/FocuSpace/assets/57553676/57c672e7-4caf-4e87-95e8-3ccafedc8117" width="700" height=auto>
+<img src="https://github.com/Amirularif/FocuSpace/assets/57553676/5384e254-e521-4a2e-9b02-12ad12cd908e" width="700" height=auto>
 <img src="https://github.com/Amirularif/FocuSpace/assets/57553676/6888210b-8410-4523-90bc-20f2d12a75b3" width="700" height=auto>
