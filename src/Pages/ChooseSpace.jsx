@@ -1,6 +1,6 @@
 import React from 'react';
-import '../css/ChooseSpace.css';
 import { useNavigate } from 'react-router-dom';
+import '../css/ChooseSpace.css';
 
 const ChooseSpace = () => {
   const navigate = useNavigate();
