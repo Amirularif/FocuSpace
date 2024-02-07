@@ -70,5 +70,5 @@ https://github.com/Amirularif/FocuSpace/assets/57553676/44f669cf-d050-40b1-b22e-
 - **Donate** : *Users can click the donate button to contribute*
 + **Switch to Manual Space** : *Users can also switch to Manual Space if they want to*
 
-<img src="https://github.com/Amirularif/FocuSpace/assets/57553676/5384e254-e521-4a2e-9b02-12ad12cd908e" width="700" height=auto>
 <img src="https://github.com/Amirularif/FocuSpace/assets/57553676/6888210b-8410-4523-90bc-20f2d12a75b3" width="700" height=auto>
+<img src="https://github.com/Amirularif/FocuSpace/assets/57553676/5384e254-e521-4a2e-9b02-12ad12cd908e" width="700" height=auto>
