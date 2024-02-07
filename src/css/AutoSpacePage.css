@@ -4,10 +4,6 @@
 }
 
 @font-face {
-  font-family: 'Klandestin';
-  src: url('../Fonts//klandestin.otf') format('truetype');
-}
-@font-face {
   font-family: 'Samsung';
   src: url('../Fonts//samsungsharpsans.otf') format('truetype');
 }
@@ -154,7 +150,7 @@
     align-self: center;
     width: 90%;
     padding-right: 20px;
-    height: 87px;
+    height: 100px;
     border: none;  
     background-color: rgba(7, 20, 57, 0.7); 
     border-radius: 5px;
@@ -174,7 +170,7 @@
 
   .player-controls-container .music-title {
     align-self: flex-start;
-    margin: 5px;
+    margin: 7px 5px 11px 5px;
     font-size: 15px;
     font-weight: 400;
     font-style: normal;
@@ -188,7 +184,7 @@
     width: 50px;
     height: 50px;
     padding: 2px 2px; 
-    margin: 10px 10px 10px 15px;
+    margin: 10px 10px 10px 24px;
     border: none;  
     background-color: rgba(255, 0, 204, 0.7);
     border-radius: 2.5px;
@@ -209,7 +205,7 @@
   }
   
   .fa-play, .fa-pause {
-    font-size: 24px;
+    font-size: 27px;
   }
   
   .auto-space-slider {
@@ -258,12 +254,12 @@
   
   .player-controls-container .tip {
     justify-self: flex-start;
-    font-size: 14px;
+    font-size: 12px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 100;
     color: #fff;
     letter-spacing: 2px;
-    margin-top: 5px;
+    margin-top: 11px;
     margin-left: 3px;
   }
 

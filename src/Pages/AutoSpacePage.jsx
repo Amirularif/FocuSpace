@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Howl, Howler } from 'howler';
 import Header from '../Components/Header';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -6,6 +6,7 @@ import { faPlay, faPause } from '@fortawesome/free-solid-svg-icons';
 import { useNavigate } from 'react-router-dom';
 import MediaPlayer from '../Components/MediaPlayer.jsx';
 import quotes from '../Data/quotes.json';
+import autoSpaceMusic from '../Audios/AutoSpaceMusic.mp3';
 import '../css/AutoSpacePage.css'; 
 
 
@@ -16,6 +17,7 @@ const AutoSpacePage = () => {
   const [currentTime, setCurrentTime] = useState(new Date());
   const [currentQuoteIndex, setCurrentQuoteIndex] = useState(0);
   const [quoteVisible, setQuoteVisible] = useState(true);
+  const automusicRef = useRef(null);
   const sounds = [
     { title: 'Waterfall', src: '../Audios/waterfall.mp3' },
     { title: 'Birds', src: '../Audios/birds.mp3' },
@@ -24,17 +26,27 @@ const AutoSpacePage = () => {
     { title: 'Crickets ', src: '../Audios/crickets.mp3' },
     { title: 'Paris cafe', src: '../Audios/cafe.mp3' },
   ];
-  const automusic = new Howl({
-    src: ['/AutoSpaceMusic.mp3'], 
-    volume: volume,
-  });
+
+  useEffect(() => {
+    automusicRef.current = new Howl({
+      src: [autoSpaceMusic], 
+      volume: volume,
+    });
+
+    return () => {
+      automusicRef.current.stop();
+    };
+  }, []);
+
+  useEffect(() => {
+    if (isPlaying) {
+      automusicRef.current.play();
+    } else {
+      automusicRef.current.pause();
+    }
+  }, [isPlaying]); 
 
   const togglePlayPause = () => {
-    if (isPlaying) {
-      automusic.pause();
-    } else {
-      automusic.play();
-    }
     setIsPlaying(!isPlaying);
   };
 

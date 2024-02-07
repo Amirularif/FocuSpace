@@ -5,6 +5,7 @@ import { faPlay } from '@fortawesome/free-solid-svg-icons';
 import Header from '../Components/Header';
 import MediaPlayer from '../Components/MediaPlayer.jsx';
 import quotes from '../Data/quotes.json';
+import WaterfallSound from '../Audios/waterfall.mp3';
 import '../css/ManualSpacePage.css'; 
 
 const ManualSpacePage = () => {
@@ -14,7 +15,7 @@ const ManualSpacePage = () => {
   const [currentQuoteIndex, setCurrentQuoteIndex] = useState(0);
   const [quoteVisible, setQuoteVisible] = useState(true);
   const sounds = [
-      { title: 'Waterfall', src: '../Audios/waterfall.mp3' },
+      { title: 'Waterfall', src: WaterfallSound },
       { title: 'Birds', src: '../Audios/birds.mp3' },
       { title: 'October Rain', src: '../Audios/rain.mp3' },
       { title: 'Fire place', src: '../Audios/fire.mp3' },
