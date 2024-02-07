@@ -1,6 +1,9 @@
 # Immersive Ambient Sound Website with ReactJs (Design Phase: *Coding comming soon*)
 Immersive Ambient Sound website that helps users to focus while doing work by listening to suitable background music build using ReactJs. Also has an Auto Space function which includes AI build using Tensorflow, that provide an auto suitable background music based on given preferences
 
+# Screen Record (So far)
+*will upload soon*
+
 # Platform that will be use 
 
 + ReactJS
