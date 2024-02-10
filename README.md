@@ -30,15 +30,15 @@ https://github.com/Amirularif/FocuSpace/assets/57553676/44f669cf-d050-40b1-b22e-
 * **Choose Auto Space function** : *Users can choose between Auto Space or Manual Space here. In this Scenario, Auto Space is chosen*
 
 <img src="https://github.com/Amirularif/FocuSpace/assets/57553676/4ff7e663-5a20-468f-aec6-367df8cc8056" width="700" height=auto>
-<img src="https://github.com/Amirularif/FocuSpace/assets/57553676/5d661f57-c663-4891-9e7d-4f9e6f25449c" width="700" height=auto>
+<img src="https://github.com/Amirularif/FocuSpace/assets/57553676/76496262-8d3a-42dd-a57b-c61ab8b5d772" width="700" height=auto>
 
 
 ## Auto Space Settings Page
 + **Information for Auto Space** : *Users can input information like what type of work they want to do, what kind of background music that they prefer and how long they are planningto do the work*
   
-<img src="https://github.com/Amirularif/FocuSpace/assets/57553676/14d8921d-ecf7-4ecf-ada4-7c5d08cd1b8b" width="700" height=auto>
-<img src="https://github.com/Amirularif/FocuSpace/assets/57553676/bf170c91-d0a7-44d2-a7f9-ef0443207a37" width="700" height=auto>
-<img src="https://github.com/Amirularif/FocuSpace/assets/57553676/830d2dcb-9d9b-4dd5-90d6-ecd04fdda993" width="700" height=auto>
+<img src="https://github.com/Amirularif/FocuSpace/assets/57553676/689474b3-e0ff-4997-8076-d8b414fe97b8" width="700" height=auto>
+<img src="https://github.com/Amirularif/FocuSpace/assets/57553676/41e61dc8-8b6f-4c9d-b241-14f1e25bbcc0" width="700" height=auto>
+<img src="https://github.com/Amirularif/FocuSpace/assets/57553676/a1359177-ae3f-4e56-b35a-424ea302aafd" width="700" height=auto>
 
 ## Auto Space Main Page
 + **Page Overview** : *Main page where the users can view their local time, music player which includes volume control and quotes that changes every 5 minutes interval*
