@@ -29,7 +29,7 @@ https://github.com/Amirularif/FocuSpace/assets/57553676/44f669cf-d050-40b1-b22e-
 + **Main Page** : *First page user will land on*
 * **Choose Auto Space function** : *Users can choose between Auto Space or Manual Space here. In this Scenario, Auto Space is chosen*
 
-<img src="https://github.com/Amirularif/FocuSpace/assets/57553676/4ff7e663-5a20-468f-aec6-367df8cc8056" width="700" height=auto>
+<img src="https://github.com/Amirularif/FocuSpace/assets/57553676/04a3bf32-d4d1-42fa-b5d2-0cdfc0caef9d" width="700" height=auto>
 <img src="https://github.com/Amirularif/FocuSpace/assets/57553676/76496262-8d3a-42dd-a57b-c61ab8b5d772" width="700" height=auto>
 
 
@@ -46,8 +46,7 @@ https://github.com/Amirularif/FocuSpace/assets/57553676/44f669cf-d050-40b1-b22e-
 - **Donate** : *Users can click the donate button to contribute*
 + **Switch to Manual Space** : *Users can also switch to Manual Space if they want to*
 
-<img src="https://github.com/Amirularif/FocuSpace/assets/57553676/57c672e7-4caf-4e87-95e8-3ccafedc8117" width="700" height=auto>
-<img src="https://github.com/Amirularif/FocuSpace/assets/57553676/1fce5703-f08d-44e9-8138-80eed176f1d5" width="700" height=auto>
+<img src="https://github.com/Amirularif/FocuSpace/assets/57553676/5384e254-e521-4a2e-9b02-12ad12cd908e" width="700" height=auto>
 
 # 2.Screenshot (*Manual Space*)
 ## Start Page & Choose Manual Space Page
@@ -64,11 +63,10 @@ https://github.com/Amirularif/FocuSpace/assets/57553676/44f669cf-d050-40b1-b22e-
 
 <img src="https://github.com/Amirularif/FocuSpace/assets/57553676/067d6655-27c8-4529-9a6e-c3ba1ab74256" width="700" height=auto>
 
-## Auto Space Main Page
+## Manual Space Main Page
 + **Page Overview** : *Main page where the users can view their local time, music player which includes volume control and quotes that changes every 5 minutes interval*
 * **Volume Adjustment** : *Users can pause,stop or control the volume of the music player*
 - **Donate** : *Users can click the donate button to contribute*
-+ **Switch to Manual Space** : *Users can also switch to Manual Space if they want to*
++ **Switch to Auto Space** : *Users can also switch to Auto Space if they want to*
 
-<img src="https://github.com/Amirularif/FocuSpace/assets/57553676/6888210b-8410-4523-90bc-20f2d12a75b3" width="700" height=auto>
-<img src="https://github.com/Amirularif/FocuSpace/assets/57553676/5384e254-e521-4a2e-9b02-12ad12cd908e" width="700" height=auto>
+<img src="https://github.com/Amirularif/FocuSpace/assets/57553676/1fce5703-f08d-44e9-8138-80eed176f1d5" width="700" height=auto>
