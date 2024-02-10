@@ -1,4 +1,4 @@
-# Immersive Ambient Sound Website with ReactJs (Design Phase : *Coding comming soon*)
+# Immersive Ambient Sound Website with ReactJs (AI configuration _coming soon_)
 Immersive Ambient Sound website that helps users to focus while doing work by listening to suitable background music build using ReactJs. Also has an Auto Space function which includes AI build using Tensorflow, that provide an auto suitable background music based on given preferences
 
 > [!NOTE]
@@ -23,7 +23,7 @@ https://github.com/Amirularif/FocuSpace/assets/57553676/44f669cf-d050-40b1-b22e-
 
 2. **Manual Space** : The Manual Space function in the website allows the users to manually control ambient musics that were provided on the website. The users can play multiple combination of musics at one time, pause, stop and control the volume of the musics or switch to Auto Space instead.
 
-# 1.Wireframe Design Ideas (*Auto Space*)
+# 1.Screenshot (*Auto Space*)
 ## Start Page & Choose Auto Space Page
 
 + **Main Page** : *First page user will land on*
@@ -49,7 +49,7 @@ https://github.com/Amirularif/FocuSpace/assets/57553676/44f669cf-d050-40b1-b22e-
 <img src="https://github.com/Amirularif/FocuSpace/assets/57553676/57c672e7-4caf-4e87-95e8-3ccafedc8117" width="700" height=auto>
 <img src="https://github.com/Amirularif/FocuSpace/assets/57553676/1fce5703-f08d-44e9-8138-80eed176f1d5" width="700" height=auto>
 
-# 2.Wireframe Design Ideas (*Manual Space*)
+# 2.Screenshot (*Manual Space*)
 ## Start Page & Choose Manual Space Page
 
 + **Main Page** : *First page user will land on*
