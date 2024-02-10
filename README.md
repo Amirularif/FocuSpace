@@ -54,14 +54,14 @@ https://github.com/Amirularif/FocuSpace/assets/57553676/44f669cf-d050-40b1-b22e-
 + **Main Page** : *First page user will land on*
 * **Choose Auto Space function** : *Users can choose between Auto Space or Manual Space here. In this Scenario, Manual Space is chosen*
 
-<img src="https://github.com/Amirularif/FocuSpace/assets/57553676/4ff7e663-5a20-468f-aec6-367df8cc8056" width="700" height=auto>
-<img src="https://github.com/Amirularif/FocuSpace/assets/57553676/57f07978-f9b2-4258-a50c-d869485d3c46" width="700" height=auto>
+<img src="https://github.com/Amirularif/FocuSpace/assets/57553676/04a3bf32-d4d1-42fa-b5d2-0cdfc0caef9d" width="700" height=auto>
+<img src="https://github.com/Amirularif/FocuSpace/assets/57553676/76496262-8d3a-42dd-a57b-c61ab8b5d772" width="700" height=auto>
 
 
 ## Manual Space Settings Page
 + **Information for Manual Space** : *Because dont really need to give information for the AI, they can just simply put how long they are planning to do the work, and move to the Main Page*
 
-<img src="https://github.com/Amirularif/FocuSpace/assets/57553676/067d6655-27c8-4529-9a6e-c3ba1ab74256" width="700" height=auto>
+<img src="https://github.com/Amirularif/FocuSpace/assets/57553676/82d56aeb-03e7-4dd0-9d6c-466487d706f9" width="700" height=auto>
 
 ## Manual Space Main Page
 + **Page Overview** : *Main page where the users can view their local time, music player which includes volume control and quotes that changes every 5 minutes interval*
