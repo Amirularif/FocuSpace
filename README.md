@@ -29,16 +29,16 @@ https://github.com/Amirularif/FocuSpace/assets/57553676/44f669cf-d050-40b1-b22e-
 + **Main Page** : *First page user will land on*
 * **Choose Auto Space function** : *Users can choose between Auto Space or Manual Space here. In this Scenario, Auto Space is chosen*
 
-<img src="https://github.com/Amirularif/FocuSpace/assets/57553676/04a3bf32-d4d1-42fa-b5d2-0cdfc0caef9d" width="700" height=auto>
-<img src="https://github.com/Amirularif/FocuSpace/assets/57553676/76496262-8d3a-42dd-a57b-c61ab8b5d772" width="700" height=auto>
+<img src="https://github.com/Amirularif/FocuSpace/assets/57553676/04a3bf32-d4d1-42fa-b5d2-0cdfc0caef9d" width="600" height=auto>
+<img src="https://github.com/Amirularif/FocuSpace/assets/57553676/76496262-8d3a-42dd-a57b-c61ab8b5d772" width="600" height=auto>
 
 
 ## Auto Space Settings Page
 + **Information for Auto Space** : *Users can input information like what type of work they want to do, what kind of background music that they prefer and how long they are planningto do the work*
   
-<img src="https://github.com/Amirularif/FocuSpace/assets/57553676/689474b3-e0ff-4997-8076-d8b414fe97b8" width="700" height=auto>
-<img src="https://github.com/Amirularif/FocuSpace/assets/57553676/41e61dc8-8b6f-4c9d-b241-14f1e25bbcc0" width="700" height=auto>
-<img src="https://github.com/Amirularif/FocuSpace/assets/57553676/a1359177-ae3f-4e56-b35a-424ea302aafd" width="700" height=auto>
+<img src="https://github.com/Amirularif/FocuSpace/assets/57553676/689474b3-e0ff-4997-8076-d8b414fe97b8" width="600" height=auto>
+<img src="https://github.com/Amirularif/FocuSpace/assets/57553676/41e61dc8-8b6f-4c9d-b241-14f1e25bbcc0" width="600" height=auto>
+<img src="https://github.com/Amirularif/FocuSpace/assets/57553676/a1359177-ae3f-4e56-b35a-424ea302aafd" width="600" height=auto>
 
 ## Auto Space Main Page
 + **Page Overview** : *Main page where the users can view their local time, music player which includes volume control and quotes that changes every 5 minutes interval*
@@ -46,7 +46,7 @@ https://github.com/Amirularif/FocuSpace/assets/57553676/44f669cf-d050-40b1-b22e-
 - **Donate** : *Users can click the donate button to contribute*
 + **Switch to Manual Space** : *Users can also switch to Manual Space if they want to*
 
-<img src="https://github.com/Amirularif/FocuSpace/assets/57553676/5384e254-e521-4a2e-9b02-12ad12cd908e" width="700" height=auto>
+<img src="https://github.com/Amirularif/FocuSpace/assets/57553676/5384e254-e521-4a2e-9b02-12ad12cd908e" width="600" height=auto>
 
 # 2.Screenshot (*Manual Space*)
 ## Start Page & Choose Manual Space Page
@@ -54,14 +54,14 @@ https://github.com/Amirularif/FocuSpace/assets/57553676/44f669cf-d050-40b1-b22e-
 + **Main Page** : *First page user will land on*
 * **Choose Auto Space function** : *Users can choose between Auto Space or Manual Space here. In this Scenario, Manual Space is chosen*
 
-<img src="https://github.com/Amirularif/FocuSpace/assets/57553676/04a3bf32-d4d1-42fa-b5d2-0cdfc0caef9d" width="700" height=auto>
-<img src="https://github.com/Amirularif/FocuSpace/assets/57553676/76496262-8d3a-42dd-a57b-c61ab8b5d772" width="700" height=auto>
+<img src="https://github.com/Amirularif/FocuSpace/assets/57553676/04a3bf32-d4d1-42fa-b5d2-0cdfc0caef9d" width="600" height=auto>
+<img src="https://github.com/Amirularif/FocuSpace/assets/57553676/76496262-8d3a-42dd-a57b-c61ab8b5d772" width="600" height=auto>
 
 
 ## Manual Space Settings Page
 + **Information for Manual Space** : *Because dont really need to give information for the AI, they can just simply put how long they are planning to do the work, and move to the Main Page*
 
-<img src="https://github.com/Amirularif/FocuSpace/assets/57553676/82d56aeb-03e7-4dd0-9d6c-466487d706f9" width="700" height=auto>
+<img src="https://github.com/Amirularif/FocuSpace/assets/57553676/82d56aeb-03e7-4dd0-9d6c-466487d706f9" width="600" height=auto>
 
 ## Manual Space Main Page
 + **Page Overview** : *Main page where the users can view their local time, music player which includes volume control and quotes that changes every 5 minutes interval*
